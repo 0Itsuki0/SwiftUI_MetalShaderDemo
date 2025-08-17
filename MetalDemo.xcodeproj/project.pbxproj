@@ -6,8 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		987E6DC92E51648100C606B3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 987E6DC82E51648100C606B3 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		987E6DB12E50152600C606B3 /* MetalDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		987E6DC82E51648100C606B3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		987E6DCA2E51649E00C606B3 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +38,8 @@
 		987E6DA82E50152600C606B3 = {
 			isa = PBXGroup;
 			children = (
+				987E6DC82E51648100C606B3 /* README.md */,
+				987E6DCA2E51649E00C606B3 /* demo.gif */,
 				987E6DB32E50152600C606B3 /* MetalDemo */,
 				987E6DB22E50152600C606B3 /* Products */,
 			);
@@ -109,6 +117,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				987E6DC92E51648100C606B3 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
